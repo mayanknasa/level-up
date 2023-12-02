@@ -10,7 +10,9 @@ function Contact() {
       <div className='contact-tile'>
         <div className='contact-heading'>Phone Numbers</div>
         <div className='contact-desc'>
-        +91 9588586914 <br/> +91 8708874805<br/> +91 9817288638
+        <a href='tel:+919588586914'>+91 9588586914</a> <br/> 
+        <a href='tel:+918708874805'>+91 8708874805</a><br/> 
+        <a href='tel:+919817288638'>+91 9817288638</a>
         </div>
       </div>
       <div className='contact-tile'>
