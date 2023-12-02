@@ -5,6 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
+  color: inherit;
+  color: initial;
+  color: unset;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+
+  text-decoration: none;
+  color: unset; 
 }
 
 code {

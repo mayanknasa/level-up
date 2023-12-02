@@ -1,0 +1,23 @@
+.contact-container{
+    z-index: 1000;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact-tile{
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+.contact-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact-desc{
+
+}
