@@ -3,7 +3,7 @@
 }
 a{
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .footer-container{
     display: flex;
