@@ -2,7 +2,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
     color: #fff;
     gap: 1rem;
@@ -13,7 +13,7 @@
 #feeCalculator form{
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
     gap: 1rem;
 }

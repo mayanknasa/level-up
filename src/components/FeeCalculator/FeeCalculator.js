@@ -34,6 +34,7 @@ const TimeAndPriceCalculator = () => {
       setTimeDifference(`${minutes} minutes`);
       setTotalPrice(` Rs. ${Math.round(calculatedPrice*10)/10}`);
       setDisabled(true);
+      setPricePerMinute(50/30);
     } else {
       setTimeDifference(null);
       setTotalPrice(null);
