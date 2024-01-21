@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Homepage from './components/Homepage/Homepage';
 import Contact from './components/Contact/Contact';
 import Services from './components/Services/Services';
+import FeeCalculator from './components/FeeCalculator/FeeCalculator';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Homepage/>
       <Services/>
+      <FeeCalculator/>
       <Contact/>
     <Footer/>
     </div>

@@ -1,0 +1,73 @@
+#feeCalculator{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: #fff;
+    gap: 1rem;
+    width: max-content;
+    margin: 0 auto;
+}
+
+#feeCalculator form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#feeCalculator input{
+    width: 100px;
+    font-size: 18px;
+}
+
+#feeCalculator button{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+#feeCalculator .btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#feeCalculator button:hover:not(:disabled){
+    background-color: #fff;
+    color: #000;
+}
+
+#feeCalculator button:disabled{
+    color: #ccc;
+    border-color: #ccc;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #fff;
+    gap: 0.5rem;
+    width: -webkit-fill-available;
+}
+
+.result-title{
+    color: rgba(0,255,255,0.8);
+}
+
+.result-op{
+    font-weight: 500;
+}
+
+@media  (max-width:767px) {
+    #feeCalculator{
+        width: 80%;
+    }
+    #feeCalculator button{
+        padding: 8px;
+    }
+}

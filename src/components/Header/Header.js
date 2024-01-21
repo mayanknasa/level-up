@@ -11,9 +11,10 @@ function Header() {
       <div className="header-items">
         <a href="#main">
         <img src={logo} alt="Logo"/></a>
-        <ul class="menu" id="menu">
+        <ul className="menu" id="menu">
           <li><a href="#main">Home</a></li>
-          <li><a href="#services">Services</a></li>
+          {/* <li><a href="#services">Services</a></li> */}
+          <li><a href="#feeCalculator">Calculate Price</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
         </div>
